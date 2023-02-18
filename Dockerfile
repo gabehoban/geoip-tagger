@@ -23,4 +23,4 @@ COPY . /app
 
 COPY --from=build-image /app/ ./
 
-CMD ["/app/bin/python", "main.py"]
+CMD ["/app/bin/python", "-u", "main.py"]
