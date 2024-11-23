@@ -1,2 +1,2 @@
-twisted==24.3.0
+twisted==24.7.0
 mysql-connector-python==9.1.0
